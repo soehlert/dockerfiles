@@ -1,4 +1,4 @@
-FROM geerlingguy:docker-os7-ansible
+FROM geerlingguy/docker-centos7-ansible:latest
 LABEL maintainer="Sam Oehlert <sam.oehlert@gmail.com>"
 
 RUN yum install -y unzip libpcap gperfools-lib \
